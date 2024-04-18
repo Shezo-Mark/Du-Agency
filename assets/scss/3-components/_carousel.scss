@@ -1,0 +1,177 @@
+/*------------------*\
+    Carousel Section
+\*------------------*/
+
+.destination_slider{
+    .slick-slide{
+        padding: 0 35px;
+        border-radius: 8px;
+        &:nth-child(2n){
+            padding-top: 100px;
+        }
+        img{
+            border-radius: 8px;
+        }
+    }
+}
+
+.user_rading{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .rate_thumb{
+        border-radius: 50%;
+        width: 100px;
+        height: 79px;
+    
+        margin-right: 35px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 100px;
+        }
+    }
+    .rat_icons{
+        margin-bottom: 20px;
+        span{
+            i{
+                color: #ddca3f;
+                font-size: 25px;
+            }
+        }
+    }
+    .rat_desc{
+        max-width: 400px;
+        h5{
+            font-size: 21px;
+            font-weight: 600;
+            color: white;
+        }
+    }
+}
+
+
+.section_logos{
+    padding: 35px 0;
+    background-color: #f4f8f8;
+    img{
+        max-width: 162px;
+        margin: 0 auto;
+        aspect-ratio: 3 / 2;
+        object-fit: contain;
+    }
+}
+.section_testimonials{
+    background-color: white;
+ 
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+.testimonial_slider{
+    .slick-track{
+        // width: 1000px !important;
+        .slick-slide{
+            margin-right: 30px;
+            padding: 80px 0;
+            &.slick-center div {
+                .tes_item {
+                    zoom: 1.1;
+                    transform: translateY(-30px);
+                }
+            }
+        }
+    }
+
+    .tes_item{
+        background-color: white;
+        border-radius: 8px;
+        padding: 65px 200px;
+        text-align: center;
+        margin-right: 60px;
+        min-height: 560px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        h6{
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        img{
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 41px;
+            margin-bottom: 60px;
+            max-width: 640px;
+            margin: 0 auto;
+            font-family: "URW Gothicc";
+        }
+        h4{
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 15px;
+            font-family: "URW Gothicc";
+            margin-top: 60px;
+        }
+        .client_position{
+            font-weight: 600;
+            font-size: 18px;
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.section_contact{
+    padding: 72px 0;
+    background-color: #0c1e21;
+    h5{
+        font-weight: 600;
+        color: white;
+        font-size: 35px;
+    }
+    ul{
+        margin-bottom: 0;
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            font-weight: 400;
+            a{
+                font-size: 18px;
+                display: flex;
+                align-items: center;
+                color: white;
+                font-family: "URW Gothicc";
+                span{
+                    display: inline-block;
+                    margin-right: 15px;
+                    i{
+                        font-size: 40px;
+                        color: #616c6f;
+                    }
+                }
+            }
+        }
+    }
+    .btn_brand{
+        padding: 14px 20px;
+        font-family: "URW Gothicc";
+        font-size: 18px;
+    }
+}
+.section_articles{
+    background-color: white;
+}

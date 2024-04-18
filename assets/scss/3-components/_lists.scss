@@ -1,0 +1,62 @@
+/*--------------*\
+    Lists Section
+\*--------------*/
+
+.section_component{
+    // background-image: url('/assets/images/slide-1.webp');
+    // background-repeat: no-repeat;
+    // background-size: 46%;
+    position: relative;
+    z-index: 1;
+    &:after{
+        content: "";
+        position: absolute;
+        top: 32%;
+        right: 0px;
+        transform: translateY(-50%);
+        width: 30%;
+        height: 300px;
+        // background-image: url('/assets/images/location-ling.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &.half_plan_line{
+        &:after {
+            background-image: url('/assets/images/arieplan-pro.png');
+            top: 11%;
+        }
+    }
+    &.location_line{
+        &:after {
+            background-image: url('/assets/images/location-ling.png');
+        }
+    }
+    &.plane_line{
+        &:after {
+            right: unset;
+            left: 0;
+            top: 19%;
+            width: 67%;
+            background-image: url('/assets/images/airplan-line.png');
+            z-index: -1;
+        }
+    }
+    > img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 46%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0 8px 8px 0;
+    }
+    &.right{
+       > img{
+       border-radius: 8px 0 0 8px;
+        right: 0;
+        left: unset;
+       }
+    }
+
+}

@@ -1,0 +1,34 @@
+/*--------------*\
+    Footer Section
+\*--------------*/
+
+footer{
+    padding: 55px 0;
+    background-color: #0c1e21;
+    .foot_logo{
+        display: block;
+        margin-bottom: 30px;
+        max-width: 250px;
+        margin-bottom: 55px;
+    }
+    h2{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 55px;
+        color: white;
+    }
+    .footer_nav{
+       
+       li{
+        + li{
+            margin-top: 13px;
+        }
+        a{
+            font-size: 18px;
+            font-weight: 500;
+            color: white;
+            // font-family: 'URW Gothicc';
+        }
+       }
+    }
+}

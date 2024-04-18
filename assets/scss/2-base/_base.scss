@@ -1,0 +1,146 @@
+/*--------------*\
+    Base
+\*--------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $main-font-family;
+  font-weight: $font-regular;
+  font-size: 16px;
+  background-color: #f7f4ef;
+  overflow-x: hidden;
+}
+.container{
+  max-width: 1320px;
+}
+.section{
+  padding: 150px 0 ;
+}
+.section_pb_130{
+  padding-bottom: 150px;
+}
+.section_pt_130{
+  padding-top: 150px;
+}
+.section_mt_100{
+  margin-top: 100px;
+}
+.section_mb_200{
+  margin-bottom: 200px;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin-bottom: 0;
+}
+ul{
+
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+h1{
+  font-size: 200px;
+  font-weight: 700;
+}
+h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+.sub_title{
+  font-size: 9px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1.9px;
+}
+.text_brand{
+  color: #94e1f2;
+}
+.text_sky{
+  color: #94e1f2;
+}
+.text_brown{
+  color: #d9a273 !important;
+}
+.dark_blue{
+  color: #393459 !important;
+}
+.dark_greenery{
+  color: #81a649 !important;
+}
+.section_title{
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.line{
+  position: relative;
+  padding-left: 70px;
+  &:before{
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 60px;
+      height: 2px;
+      background-color: #94e1f2;
+  }
+}
+
+.team_social_link{
+  display: flex;
+  // justify-content: flex-end;
+  a{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      + a{
+          margin-left: 8px;
+      }
+      i{
+          font-size: 15px;
+          color: white;
+      }
+  }
+}
+.design_icon{
+    position: relative;
+    // padding-left: 70px;
+    &:before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateY(-25%);
+        width: 120px;
+        height: 90px;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      &.icon_1{
+        &:before{
+          background-image: url('/assets/images/icon-1.png');
+        }
+      }
+      &.icon_2{
+        &:before{
+          background-image: url('/assets/images/icon-2.png');
+        }
+      }
+      &.icon_3{
+        &:before{
+          background-image: url('/assets/images/icon-3.png');
+        }
+        
+      }
+}

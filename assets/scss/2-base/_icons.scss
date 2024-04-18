@@ -1,0 +1,36 @@
+/*--------------*\
+    Icon Section
+\*--------------*/
+
+.dot {
+  &:before {
+    content: "\2022";
+  }
+}
+
+i {
+  &[class*="h-icon-"] {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+}
+
+$icons: (
+  "facebook" "svg" 10px 10px,
+  "twitter" "png" 20px 20px,
+  "linkedin" "svg" ""
+);
+
+@each $name, $fileType, $width, $height in $icons {
+  .icon-#{$name} {
+    display: inline-block;
+    background-image: url($icons-path + "/" + $name + "." + $fileType);
+    @if ($width != "") {
+      width: $width;
+    }
+    @if ($height != "") {
+      height: $height;
+    }
+  }
+}

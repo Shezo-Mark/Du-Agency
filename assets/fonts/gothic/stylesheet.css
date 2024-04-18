@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'URW Gothic';
+    src: url('URWGothic-Demi.eot');
+    src: url('URWGothic-Demi.eot?#iefix') format('embedded-opentype'),
+        url('URWGothic-Demi.woff2') format('woff2'),
+        url('URWGothic-Demi.woff') format('woff'),
+        url('URWGothic-Demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

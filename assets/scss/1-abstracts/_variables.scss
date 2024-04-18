@@ -1,0 +1,89 @@
+//------------------------------- Colors
+$social-colors: (
+  "facebook": #3b5998,
+  "facebook-f": #3b5998,
+  "twitter": #1da1f2,
+  "linkedin": #0077b5,
+  youtube-play: #cd201f,
+);
+
+$black: #000000;
+$white: #ffffff;
+
+$bg-colors: (
+  black: $black,
+  white: $white,
+);
+
+//------------------------------- Typography
+$nudista-font-family: "URW Gothic", sans-serif;
+$roboto-font-family: "Roboto", sans-serif;
+
+$font-thin: 100; //  Hairline
+$font-extra-light: 200;
+$font-light: 300;
+$font-regular: 400; // Normal
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+$font-extra-bold: 800;
+$font-black: 900;
+
+$font-weights: (
+  thin: $font-thin,
+  extra-light: $font-extra-light,
+  light: $font-light,
+  regular: $font-regular,
+  medium: $font-medium,
+  semi-bold: $font-semi-bold,
+  bold: $font-bold,
+  extra-bold: $font-extra-bold,
+  black: $font-black,
+);
+
+$font-size-1: 40px;
+$font-size-2: 32px;
+$font-size-3: 24px;
+$font-size-4: 20px;
+$font-size-5: 18px;
+$font-size-6: 16px;
+$font-size-7: 14px;
+
+$font-size-h1: $font-size-1;
+$font-size-h2: $font-size-2;
+$font-size-h3: $font-size-3;
+$font-size-h4: $font-size-4;
+$font-size-h5: $font-size-5;
+$font-size-h6: $font-size-6;
+
+$line-height: 1.26em;
+
+//------------------------------- Paths
+$images-path: "../images";
+$icons-path: $images-path + "/icons";
+
+//------------------------------- Main
+$main-font-family: $nudista-font-family;
+$main-font-size: $font-size-6;
+
+//$brand-color: $clr-orange;
+//$main-font-color: $clr-green;
+
+$pixels: (30, 40, 50, 85);
+
+// ------------------------ Responsive Queries
+
+$sm-em: "only screen and (min-width: 36em)"; // ≥ 576px
+$md-em: "only screen and (min-width: 48em)"; // ≥ 768px
+$lg-em: "only screen and (min-width: 62em) "; // ≥ 992px
+$xl-em: "only screen and (min-width: 75em)"; // ≥ 1200px
+
+$xs-only: "(max-width: 575.98px)";
+$sm-only: "(min-width: 576px) and (max-width: 767.98px)";
+$md-only: "(min-width: 768px) and (max-width: 991.98px)";
+$lg-only: "(min-width: 992px) and (max-width: 1199.98px)";
+$xl-only: "(min-width: 1200px)";
+
+$sm-down: "only screen and (max-width: 767.98px)";
+$md-down: "only screen and (max-width: 991.98px)";
+$lg-down: "only screen and (max-width: 1199.98px)";

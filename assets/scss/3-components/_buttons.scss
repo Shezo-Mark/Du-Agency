@@ -1,0 +1,99 @@
+/*-----------------*\
+    Button Section
+\*-----------------*/
+
+.btn{
+  padding: 19px 75px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  &:hover,
+  &:focus{
+    outline: none;
+  }
+}
+.btn_brand{
+  background-color: #22b32c;
+  border: 1px solid #22b32c;
+  &:hover{
+    background-color: #393459;
+    border: 1px solid #393459;
+    color: white;
+  }
+}
+.btn_brand_secoundry{
+  background-color: #393459;
+  border: 1px solid #393459;
+  &:hover{
+    background-color: #22b32c;
+    border: 1px solid #22b32c;
+    color: white;
+  }
+}
+.btn_brand_secoundry_light{
+  background-color: #94e1f2;
+  border: 1px solid #94e1f2;
+  &:hover{
+    background-color: #22b32c;
+    border: 1px solid #22b32c;
+    color: white;
+  }
+}
+
+
+.btn_brand_outline{
+  border: 1px solid #94e1f2;
+  color: #393459;
+  font-family: "URW Gothicc";
+  &.white_outline{
+    border: 3px solid #eae3d3;
+    padding: 13px 45px !important;
+  }
+}
+
+
+.article_link{
+  font-weight: 600;
+}
+
+
+
+
+
+// .button {
+//   margin: auto;
+//   cursor: pointer;
+//   transition: all 0.2s ease-out;
+// }
+
+// .button-wrap-wrapper {
+//   width: 192px;
+//   height: 192px;
+//   border: 1px dashed #fff;
+//   margin: auto;
+//   display: flex;
+// }
+
+// .button-wrap {
+//   width: 128px;
+//   height: 128px;
+//   margin: auto;
+//   /* background: orange; */
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   border: 1px dashed #fff;
+// }
+
+// .button__like-text {
+//   display: block;
+//   color: var(--color-black);
+//   background: var(--color-white);
+//   width: var(--gutter-lg);
+//   height: var(--gutter-lg);
+//   border-radius: 50%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }

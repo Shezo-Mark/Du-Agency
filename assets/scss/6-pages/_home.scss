@@ -1,0 +1,168 @@
+/*--------------*\
+    Home Page
+\*--------------*/
+.section_services{
+    position: relative;
+    .container{
+        position: relative;
+        &:before{
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: -100px;
+            width: 90px;
+            height: 90px;
+            background-image: url('/assets/images/watch.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &:after{
+            content: "";
+            position: absolute;
+            bottom: -50px;
+            right: -100px;
+            width: 100px;
+            height: 100px;
+            background-image: url('/assets/images/backpak.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+     h2{
+        position: relative;
+        z-index: 9999;
+     }
+     h6{
+        position: relative;
+        z-index: 9999;
+     }
+    &:before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        width: 60px;
+        height: 100%;
+        background-image: url('/assets/images/right-line.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 999;
+    }
+    &:after{
+        content: "";
+        position: absolute;
+        top: -425px;
+        left: 0;
+        width: 100%;
+        height: 441px;
+        background-image: url('/assets/images/cloud-main.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.section_destination{
+    background-color: #132531;
+    background-image: url('/assets/images/tree.png');
+    background-size: contain;
+    background-position: 0% 111%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    &:before{
+        content: "";
+        position: absolute;
+        top: -40%;
+        left: 0;
+        width: 60px;
+        height: 100%;
+        background-image: url('/assets/images/left-design-line.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 999;
+    }
+    &:after{
+        content: "";
+        position: absolute;
+        top: 233px;
+        left: 0;
+        width: 100%;
+        height: 238px;
+        background-image: url('/assets/images/destination-plain.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+    }
+}
+.section_about{
+    .container{
+        position: relative;
+        &:before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: -200px;
+            transform: translateY(-50%);
+            width: 90px;
+            height: 90px;
+            background-image: url('/assets/images/passport.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &:after{
+            content: "";
+            position: absolute;
+            bottom: 0px;
+            right: -200px;
+            width: 100px;
+            height: 100px;
+            background-image: url('/assets/images/org-plain.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    h6{
+        text-align: left;       
+    }
+    .team_list{
+        position: relative;
+        margin-top: 46px;
+        border-radius: 8px;
+        img{
+            border-radius: 8px;
+        }
+        .team_info{
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            width: 100%;
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border: 1px solid white;
+            background-color: rgba(0,0,0,0.3);
+            h4{
+                font-size: 30px;
+                color: white;
+                font-weight: 600;
+                font-family: "URW Gothicc";
+                span{
+                    display: block;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+.design_icon {
+    p{
+        font-family: 'URW Gothicc';
+    }
+}

@@ -1,0 +1,17 @@
+/*--------------*\
+    Form Section
+\*--------------*/
+.search_form{
+    input{
+        border: none;
+        border-bottom: 2px solid #b9b9b9;
+        background-color: transparent;
+        font-family: "URW Gothicc";
+        border-radius: 0;
+        &:focus{
+            outline: none;
+            box-shadow: none;
+            background-color: transparent;
+        }
+    }
+}
