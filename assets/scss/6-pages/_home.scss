@@ -8,8 +8,9 @@
         &:before{
             content: "";
             position: absolute;
-            top: 0px;
-            left: -100px;
+            top: 19px;
+            left: -60px;
+
             width: 90px;
             height: 90px;
             background-image: url('/assets/images/watch.png');
@@ -37,6 +38,14 @@
      h6{
         position: relative;
         z-index: 9999;
+        letter-spacing: .3em;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2em;
+    @include grid-md-down{
+        font-size: 14px;
+    }
      }
     &:before{
         content: "";
@@ -54,13 +63,14 @@
     &:after{
         content: "";
         position: absolute;
-        top: -425px;
+        bottom: -20%;
         left: 0;
-        width: 100%;
-        height: 441px;
-        background-image: url('/assets/images/cloud-main.png');
+        width: 60px;
+        height: 100%;
+        background-image: url('/assets/images/left-design-line.png');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        z-index: 999;
     }
 }
 
@@ -72,18 +82,18 @@
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
-    &:before{
-        content: "";
-        position: absolute;
-        top: -40%;
-        left: 0;
-        width: 60px;
-        height: 100%;
-        background-image: url('/assets/images/left-design-line.png');
-        background-repeat: no-repeat;
-        background-size: contain;
-        z-index: 999;
-    }
+    // &:before{
+    //     content: "";
+    //     position: absolute;
+    //     top: -40%;
+    //     left: 0;
+    //     width: 60px;
+    //     height: 100%;
+    //     background-image: url('/assets/images/left-design-line.png');
+    //     background-repeat: no-repeat;
+    //     background-size: contain;
+    //     z-index: 999;
+    // }
     &:after{
         content: "";
         position: absolute;
@@ -127,7 +137,7 @@
         }
     }
     h6{
-        text-align: left;       
+        text-align: left !important;       
     }
     .team_list{
         position: relative;

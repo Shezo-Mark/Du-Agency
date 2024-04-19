@@ -179,15 +179,15 @@ body {
 }
 
 .section {
-  padding: 150px 0;
+  padding: 128px 0;
 }
 
 .section_pb_130 {
-  padding-bottom: 150px;
+  padding-bottom: 128px;
 }
 
 .section_pt_130 {
-  padding-top: 150px;
+  padding-top: 128px;
 }
 
 .section_mt_100 {
@@ -211,7 +211,7 @@ a {
 }
 
 h1 {
-  font-size: 200px;
+  font-size: 7vw;
   font-weight: 700;
 }
 
@@ -221,10 +221,10 @@ h4 {
 }
 
 .sub_title {
-  font-size: 9px;
-  text-align: center;
-  font-weight: 600;
-  letter-spacing: 1.9px;
+  font-size: 9px !important;
+  text-align: center !important;
+  font-weight: 600 !important;
+  letter-spacing: 1.9px !important;
 }
 
 .text_brand {
@@ -248,10 +248,11 @@ h4 {
 }
 
 .section_title {
-  font-size: 55px;
-  font-weight: 700;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   text-align: center;
+  font-size: 3.75em;
+  font-weight: 700;
+  line-height: 1.05em;
 }
 
 .line {
@@ -320,19 +321,23 @@ h4 {
   text-align: center;
 }
 .flow_item span {
-  max-width: 180px;
-  max-height: 180px;
+  width: 4.6em;
+  height: 4.6em;
   display: inline-block;
   border-radius: 60px;
 }
 .flow_item h6 {
-  margin: 42px 0 25px;
-  font-weight: 600;
+  margin: 20px 0 10px;
   color: #393459;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1.21em;
 }
 .flow_item p {
-  font-size: 12px;
-  font-family: "URW Gothicc";
+  font-size: 16px;
+  line-height: 1.6em;
+  font-family: "Fraunces", serif;
+  font-weight: 300;
 }
 
 .article {
@@ -443,11 +448,14 @@ h4 {
     Button Section
 \*-----------------*/
 .btn {
-  padding: 19px 75px;
-  font-size: 22px;
-  font-weight: bold;
   color: white;
-  border-radius: 8px;
+  border-radius: 0.63em;
+  padding: 1.2em 1.9em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1.2em;
 }
 .btn:hover, .btn:focus {
   outline: none;
@@ -501,7 +509,7 @@ h4 {
     Carousel Section
 \*------------------*/
 .destination_slider .slick-slide {
-  padding: 0 35px;
+  padding: 0 24px;
   border-radius: 8px;
 }
 .destination_slider .slick-slide:nth-child(2n) {
@@ -739,27 +747,38 @@ header nav .navbar-nav {
   align-items: center;
 }
 header nav .navbar-nav li {
-  font-size: 16px;
-  font-weight: 500;
   color: white;
   min-height: 124px;
   display: flex;
   flex-flow: column;
   justify-content: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1.2em;
 }
 header nav .navbar-nav li a {
   color: white;
   font-family: "URW Gothicc";
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1.2em;
 }
 header nav .navbar-nav li:nth-child(1) {
   padding: 0 50px 0 30px;
   border-right: 1px solid white;
 }
 header nav .navbar-nav li:nth-child(1) label {
-  font-size: 14px;
-  font-weight: 500;
   font-family: "URW Gothicc";
   font-style: italic;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 700;
+  text-align: left;
 }
 header nav .navbar-nav li:nth-child(2) {
   margin-left: auto;
@@ -781,20 +800,29 @@ header nav .navbar-nav li .dropdown-menu a {
   display: block;
   color: white;
   padding: 15px 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 700;
 }
 header nav .navbar-nav li .dropdown-menu a:hover {
   background-color: #192425;
   color: white;
 }
 header nav .navbar-nav .dropdown .dropdown-toggle {
-  font-size: 16px;
   padding: 0;
   color: white;
   align-items: center;
   margin-top: 4px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1.2em;
 }
 header nav .navbar-nav .dropdown .dropdown-toggle:after {
-  margin-left: 14px;
+  margin-left: 5px;
   margin-top: 8px;
 }
 header nav .btn_brand {
@@ -802,9 +830,13 @@ header nav .btn_brand {
   display: block;
   width: 156px;
   border-radius: 8px;
-  font-size: 16px;
   font-family: "URW Gothicc";
   letter-spacing: 1px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1.2em;
 }
 
 /*--------------*\
@@ -839,30 +871,44 @@ footer .footer_nav li a {
     Hero Section
 \*--------------*/
 .section_hero {
-  background-image: url("../../assets/images/hero-bg.jpg");
+  background-image: url("../../assets/images/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 500px;
+  padding-top: 100px;
   position: relative;
+  min-height: 100vh;
+  background-position: center bottom;
+}
+@media only screen and (max-width: 991.98px) {
+  .section_hero {
+    min-height: auto;
+  }
+}
+.section_hero:hover .ballon {
+  animation: move 3s infinite ease-in-out;
+}
+@keyframes move {
+  50% {
+    transform: translate(20px, 20px);
+  }
 }
 .section_hero.doted_line:before {
   content: "";
   position: absolute;
-  top: 581px;
-  right: 15px;
-  width: 20%;
-  height: 12%;
+  top: 350px;
+  right: 0px;
+  width: 37%;
+  height: 23%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-image: url("../../assets/images/right-doted-line.png");
 }
 .section_hero.doted_line:after {
   content: "";
   position: absolute;
-  top: 387px;
-  left: 0;
-  width: 30%;
+  top: 245px;
+  left: 0px;
+  width: 18%;
   height: 12%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -881,7 +927,7 @@ footer .footer_nav li a {
 }
 .section_hero .hero_content .ballon {
   position: absolute;
-  top: -150px;
+  top: 0;
   right: -16px;
   width: 75px;
   height: 100px;
@@ -895,7 +941,7 @@ footer .footer_nav li a {
   color: white;
   position: relative;
   z-index: 99;
-  line-height: 200px;
+  line-height: 1em;
 }
 @media only screen and (max-width: 991.98px) {
   .section_hero .hero_content h1 {
@@ -905,9 +951,14 @@ footer .footer_nav li a {
 }
 .section_hero .hero_content p {
   margin-top: 25px;
-  margin-bottom: 100px;
-  font-size: 20px;
+  margin-bottom: 40px;
   color: white;
+  font-size: 1.38em;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.5em;
+  font-family: "Fraunces", serif;
+  max-width: 800px;
 }
 
 .busniess_hero {
@@ -964,7 +1015,9 @@ footer .footer_nav li a {
 .bottom_arrow {
   text-align: center;
   display: block;
-  margin-top: 120px;
+  margin-top: 60px;
+  position: relative;
+  z-index: 100000000000000000000000;
 }
 .bottom_arrow i {
   font-size: 25px;
@@ -993,8 +1046,8 @@ footer .footer_nav li a {
 .section_services .container:before {
   content: "";
   position: absolute;
-  top: 0px;
-  left: -100px;
+  top: 19px;
+  left: -60px;
   width: 90px;
   height: 90px;
   background-image: url("/assets/images/watch.png");
@@ -1021,6 +1074,16 @@ footer .footer_nav li a {
 .section_services h6 {
   position: relative;
   z-index: 9999;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+@media only screen and (max-width: 991.98px) {
+  .section_services h6 {
+    font-size: 14px;
+  }
 }
 .section_services:before {
   content: "";
@@ -1038,13 +1101,14 @@ footer .footer_nav li a {
 .section_services:after {
   content: "";
   position: absolute;
-  top: -425px;
+  bottom: -20%;
   left: 0;
-  width: 100%;
-  height: 441px;
-  background-image: url("/assets/images/cloud-main.png");
+  width: 60px;
+  height: 100%;
+  background-image: url("/assets/images/left-design-line.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  z-index: 999;
 }
 
 .section_destination {
@@ -1055,18 +1119,6 @@ footer .footer_nav li a {
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
-}
-.section_destination:before {
-  content: "";
-  position: absolute;
-  top: -40%;
-  left: 0;
-  width: 60px;
-  height: 100%;
-  background-image: url("/assets/images/left-design-line.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  z-index: 999;
 }
 .section_destination:after {
   content: "";
@@ -1110,7 +1162,7 @@ footer .footer_nav li a {
   background-position: center;
 }
 .section_about h6 {
-  text-align: left;
+  text-align: left !important;
 }
 .section_about .team_list {
   position: relative;
@@ -1325,7 +1377,7 @@ footer .footer_nav li a {
   }
   .btn {
     padding: 10px 20px;
-    font-size: 17px;
+    font-size: 12x;
   }
   h1 {
     font-size: 63px;
