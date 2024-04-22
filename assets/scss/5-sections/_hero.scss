@@ -120,7 +120,6 @@
         height: 100%;
         background-color: rgba(0, 0, 0, 0.5);
     }
-
     .container {
         &:before {
             content: unset;
@@ -132,6 +131,7 @@
         font-family: "URW Gothicc";
         max-width: 482px;
         margin-bottom: 32px !important;
+        max-width: 500px !important;
     }
 
     h2 {
@@ -141,8 +141,9 @@
     }
 
     .btn {
-        padding: 21px 10px;
+        padding: 21px 19px;
         font-size: 18px;
+        text-transform: capitalize;
     }
 }
 

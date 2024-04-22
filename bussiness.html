@@ -14,8 +14,9 @@
     <!-- <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet"> -->
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./assets/fonts/gothic/stylesheet.css">
@@ -82,7 +83,7 @@
                   <li class="nav-item"><a class="nav-link" href="#">Our Team</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li> 
               </ul>
-              <a href="" class="btn btn_brand button_animi">Contact</a>
+              <a href="" class="btn btn_brand">Contact Us</a>
             </div>
           </div>
     </nav>
@@ -96,7 +97,7 @@
                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                        <div class="hero_action direction_col">
                            <a href="" class="btn btn_brand button_animi">Primary CTA Button</a>
-                           <a href="" class="btn ml-md-3 ml-0 button_animi">Secondary CTA Button <i class="fas fa-chevron-right ml-3"></i></a>
+                           <a href="" class="btn ml-md-3 ml-0 button_animi">Secondary CTA Button <i class="fas fa-chevron-right ml-2"></i></a>
                        </div>
                    </div>
                </div>
@@ -212,12 +213,12 @@
             </div>
             <div class="col-md-8">
               <div class="row align-items-center">
-                 <div class="col-md-8 text-right">
+                 <div class="col-md-7 text-right">
                   <ul class="text-right">
                     <li><a href=""><span class="phone_icon"><img src="./assets/images/phone.png" alt=""></span>(555) 555 - 5555</a></li>
                   </ul>
                  </div>
-                 <div class="col-md-4 text-md-right text-center">
+                 <div class="col-md-5 text-md-right text-center">
                    <a href="" class="btn btn_brand button_animi">Schedule a Consultation</a>
                  </div>
               </div>
@@ -273,7 +274,7 @@
     </section>
 
     
-    <section class="section_testimonials" data-aos="fade-in">
+    <section class="section_testimonials section_pb_130" data-aos="fade-in">
       <div class="testimonial_slider">
         <div class="tes_item">
           <h6>CLIENT TESTIMONIALS</h6>
@@ -317,7 +318,7 @@
       </div>
     </section>
 
-    <section class="section_about section bg-white" data-aos="fade-in">
+    <section class="section_about section_pb_130 bg-white">
       <div class="container">
         <div class="d-md-flex align-item-center justify-content-between">
           <div class="head_title">
@@ -403,7 +404,8 @@
 ================================================== -->
 <script src="./assets/js/jquery-3.3.1.min.js"></script>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
@@ -418,9 +420,8 @@
 <script>
 $('.testimonial_slider').slick({
   centerMode: true,
-  centerPadding: '100px',
-  slidesToShow: 1.6,
-  // focusOnSelect: true,
+  centerPadding: '300px',
+  slidesToShow: 1,
   dots: true,
   infinite: true,
   responsive: [
@@ -434,7 +435,6 @@ $('.testimonial_slider').slick({
     },
   ]
 });
-
 
 $('.logos_slider').slick({
   dots: false,

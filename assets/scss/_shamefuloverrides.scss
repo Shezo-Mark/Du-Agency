@@ -272,5 +272,21 @@
     .navbar-collapse{
         padding-bottom: 20px;
     }
-    
+    .destination_slider .slick-slide .slider_item .slide_content {
+        bottom: 11px;
+        width: 100%;
+        padding-left: 10px;
+    }
+    .destination_slider .slick-slide .slider_item .slide_content p {
+        max-width: 100%;
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+    .destination_slider .slick-slide .slider_item .slide_content a {
+        font-size: 8px;
+    }
+    .destination_slider .slick-slide .slider_item .slide_content h2 {
+        margin-bottom: 5px;
+        font-size: 19px;
+    }
 }
